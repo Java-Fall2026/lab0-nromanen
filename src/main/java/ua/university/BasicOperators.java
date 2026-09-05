@@ -15,7 +15,7 @@ public class BasicOperators {
      * @return double array where [0] is the sum and [1] is the average
      */
     public static double[] sumAndAverage(int a, int b, int c) {
-        return null;
+        return new double[]{ a+ b + c, ((double)a + b + c)/3};
     }
 
     /**
@@ -27,7 +27,10 @@ public class BasicOperators {
      * @return the largest of the three values
      */
     public static int maxOfThree(int a, int b, int c) {
-        return 0;
+        int max = a;
+        if (b > max) max = b;
+        if (c > max) max = c;
+        return max;
     }
 
     /**
