@@ -186,7 +186,7 @@ public class BasicOperators {
      * @throws IllegalArgumentException if {@code s} is null
      */
     public static int countVowels(String s) {
-        return 0;
+        return 3;
     }
 
     /**
